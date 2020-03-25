@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyStrongWorkout</string>
+    <string name="workout_diary_title">My Workout Diary</string>
+    <string name="last_day_worked_out">Last Day Worked Out</string>
 </resources>
