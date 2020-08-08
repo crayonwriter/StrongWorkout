@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "752810840882",
+    "firebase_url": "https://my-strong-workout.firebaseio.com",
+    "project_id": "my-strong-workout",
+    "storage_bucket": "my-strong-workout.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752810840882:android:5121cd9724c1e2e0fe3d2b",
+        "android_client_info": {
+          "package_name": "com.crayonwriter.android.mystrongworkout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752810840882-l8c00thqr2beimn4vae0nfia58ga8n2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPWM_K6JBfg78lJXAy2nAZ_tEmkiEQXz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752810840882-l8c00thqr2beimn4vae0nfia58ga8n2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

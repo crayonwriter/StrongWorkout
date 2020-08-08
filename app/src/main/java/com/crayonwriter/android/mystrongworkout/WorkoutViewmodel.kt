@@ -5,17 +5,22 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class WorkoutViewmodel: ViewModel() {
-    private val exercises: MutableLiveData<List<Exercise>> by lazy {
-        MutableLiveData().also {
+    private val exercises: MutableLiveData<Int> by lazy {
+        MutableLiveData<Int>().also {
             loadExercises()
         }
     }
 
-    fun getExercises() : LiveData<List<Exercise>> {
+    fun getExercises() : LiveData<Int> {
         return exercises
     }
 
     fun loadExercises() {
-        //fetch exercises aysynchronously
+        //fetch exercises asynchronously
     }
+
+    //Increment reps button
+    //Decrement reps button
+    //save to Room database button
 }
+
